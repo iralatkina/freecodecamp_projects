@@ -1,1 +1,1 @@
-# freecodecamp_projects
+training project for freecodecamp.org
