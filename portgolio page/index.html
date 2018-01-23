@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Webpage</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+</head>
+<body>
+	<div class="conteiner-fluid"> 
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top""><!--navigation-->
+			<div class="container">
+				<a href="#" class="navbar-brand">
+					<img src="img\circle.svg" width="30" height="30" alt="logo" class="logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-avto">
+						<li class="nav-item active">
+							<a href="#about" class="nav-link">ABOUT </a>
+						</li>
+						<li class="nav-item">
+							<a href="#portfolio" class="nav-link"> PORTFOLIO </a>
+						</li>
+						<li class="nav-item">
+							<a href="#contacts" class="nav-link">CONTACTS</a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</nav>	
+		<div class="main-content">
+			<div id="about"><!--a bit info about developer-->
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-lg-4">
+					 	<img class="img-fluid" src="img\me.jpg" alt="in Petergof" id="person" width="350" height="341">
+					 </div>	
+					<div class="col-xs-12 col-sm-6 col-lg-7 about text-left">
+						<h1 class="display-2 font-weight-bold">IRINA LATKINA</h1>
+						<h3 class="text-white">Developing as an art</h3>
+						<div class="row" id="skills">
+							<div class="col-xs-10 col-sm-4 col-lg-3">html, css, bootstrap, animation, saas, javascript, reactjs, jquery</div>
+							<div class="col-xs-10 col-sm-4 col-lg-3">web design, typography, illustrations</div>
+							<div class="col-xs-10 col-sm-4 col-lg-3">speed and quality</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div id="portfolio"><!--projects'es thumbnails-->
+				<h1 class="display-3 text-right font-weight-bold">PORTFOLIO</h1>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<img src="img\thumb.jpg" alt="project№" width="200" height="200" class="img-thumbnail w-100">
+				</div>
+				</div>
+			</div>
+			<div id="contacts"><!--form and contacts-->
+				<h1 class="display-4 font-weight-bold text-center">CONTACT ME</h1>
+				<div class="row text-left justify-content-center">
+					<div class="col-sm-8 col-lg-6">
+						<form>
+							<div class="form-group">
+	    						<input type="text" class="form-control form-control-lg"  placeholder="full name">
+							</div>
+							<div class="form-group">
+	    						<input type="email" class="form-control form-control-lg"  placeholder="email address">
+							</div>
+							<div class="form-group">
+	    						<input type="tel" class="form-control form-control-lg"  placeholder="phone number">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control form-control-lg" rows="3"  placeholder="message"></textarea>
+							</div>
+						</form>	
+						<button type="submit" class="btn btn-lg font-weight-bold text-white">SEND MESSAGE</button>	
+					</div>
+				</div>
+			</div>		
+		</div>	
+		<div class="row justify-content-center text-center footer"><!--footer and social buttons-->		
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" id="social">
+				<a href="https://www.instagram.com/liv_jewellery/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://ru.pinterest.com/irinalatkina1/" target="_blank">
+					<i class="fab fa-pinterest-p"></i>
+				</a>
+				<a href="https://github.com/iralatkina" target="_blank">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://www.facebook.com/irina.latkina.1" target="_blank">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="https://vk.com/irakoori" target="_blank">
+					<i class="fab fa-vk"></i>
+				</a>
+			</div>
+		</div>
+		<div class="row justify-content-center text-center footer"> 
+				<div class="col-xs-12 col-lg-5" id="copyright"> 
+					All rights reserved &#169; 2018 Created with 
+						<i class="far fa-heart"></i> 
+					by Irina Latkina 
+				</div>
+			</div>	
+		
+	</div>	
+			
+			
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
